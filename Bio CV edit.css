@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bagian_kiri{
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: coral;
+}
+
+.bio_foto{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.foto{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.tombol_kontak{
+    width: 50%;
+    background-color: blue;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.tombol_kontak:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.bagian_kanan{
+    position: absolute;
+    left: 400px;
+}
+
+.top_bar{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.title{
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.list_menu{
+    float: right;
+    padding-right: 50px;
+}
+
+.menu{
+    font-size: 1.1rem;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#profile{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#about{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+#experience{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#achievements{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#contact{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#footer{
+    padding-top: 250px;
+    text-align: center;
+}
+
+p, li{
+    line-height: 200%;
+}
